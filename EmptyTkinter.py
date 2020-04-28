@@ -2,7 +2,7 @@
 
 # Version: 2020-04-27 20:00
 # Running in Python 3.8.1
-# http://github.com/kmndlbrt
+# http://github.com/kurtmnd
 # Developed by N.S.
 
 '''
@@ -61,7 +61,7 @@ def b1_event(): # real suffle
     ''
     
 def link_event1(event): # link to web of about/author
-    webbrowser.open_new(r"https://github.com/kmndlbrt")
+    webbrowser.open_new(r"https://github.com/kurtmnd")
 
 def on_closing(): # close
     if messagebox.askokcancel(PROGRAM_NAME_SHORT, "Do you want to quit?"):
@@ -111,7 +111,7 @@ l5.pack(side=LEFT)
 
 Label(footerFrame, text="Developed by:").pack(side=LEFT)
 
-l4 = Label(footerFrame, text="github.com/kmndlbrt", fg="blue", cursor="hand2")
+l4 = Label(footerFrame, text="github.com/kurtmnd", fg="blue", cursor="hand2")
 l4.bind("<Button-1>", link_event1)
 l4.pack(side=LEFT)
 
